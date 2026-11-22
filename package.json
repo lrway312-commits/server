@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-stable-bridge",
+  "version": "2.2.1",
+  "description": "WhatsApp Stable Bridge (Baileys + Google DNS Restore)",
+  "main": "bridge.js",
+  "scripts": {
+    "start": "node bridge.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "pino": "^8.16.1",
+    "body-parser": "^1.20.2",
+    "link-preview-js": "^3.0.4",
+    "qrcode-terminal": "^0.12.0",
+    "proxy-agent": "^6.3.1"
+  }
+}
